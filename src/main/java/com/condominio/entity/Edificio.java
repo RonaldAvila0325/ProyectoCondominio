@@ -28,10 +28,6 @@ public class Edificio {
 	private int idEdificio;
 	private String nomEdificio;
 	private String numPisos;
-	//private String correo;
-	//@DateTimeFormat(pattern = "yyyy-MM-dd")
-	//@Temporal(TemporalType.DATE)
-	//private Date fechaNacimiento;
 	
 	
 }

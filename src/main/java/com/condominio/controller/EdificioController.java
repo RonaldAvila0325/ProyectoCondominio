@@ -56,11 +56,3 @@ public class EdificioController {
 		return ResponseEntity.ok(salida);
 	}
 }
-
-
-
-
-
-
-
-

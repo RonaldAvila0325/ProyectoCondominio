@@ -25,28 +25,4 @@ public class EdificioServiceImpl implements EdificioService {
 		return repository.save(obj);
 	}
 
-	/*@Override
-	public List<Edifico> listaAlumnoPorDni(String dni) {
-		return repository.findByDni(dni);
-	}
-
-	@Override
-	public Optional<Edifico> buscaPorId(int idAlumno) {
-		return repository.findById(idAlumno);
-	}
-
-	@Override
-	public List<Edifico> listaAlumnoPorDniDiferenteDelMismo(String dni, int idAlumno) {
-		return repository.listaUsuarioPorDniDiferenteDelMismo(dni, idAlumno);
-	}
-
-	@Override
-	public void eliminaPorId(int idAlumno) {
-		repository.deleteById(idAlumno);
-	}
-	
-	@Override
-	public List<Edifico> listaUsuarioPorNombreOCorreo(String nombre, String correo) {
-		return repository.listaUsuarioPorNombreOCorreo(nombre, correo);
-	}*/
 }

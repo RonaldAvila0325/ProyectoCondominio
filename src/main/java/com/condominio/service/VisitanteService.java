@@ -13,4 +13,6 @@ public interface VisitanteService {
 	public abstract Optional<Visitante> buscarPorId(int idVisitante);
 	public abstract List<Visitante> listaVisitantePorDniDiferenteAlMismo(String dniVisitante, int idVistante);
 	public abstract void eliminaPorId(int idVisitante); 
+	
+	//Autor: Luis Carrasco
 }

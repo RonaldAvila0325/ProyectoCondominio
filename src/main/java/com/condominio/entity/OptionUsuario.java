@@ -12,13 +12,14 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "rol")
-public class RoleUsuarioEntity {
+@Table(name = "opcion")
+public class OptionUsuario {
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO, generator = "native")
-	private int idRol;
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private int idOpcion;
 	private String nombre;
+	private String ruta;
 	private int estado;
-	
+	private int tipo;
 }

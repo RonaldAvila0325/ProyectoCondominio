@@ -8,6 +8,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -30,7 +32,11 @@ public class Propietario {
 	private String apellidoPropietario;
 	private String telefonoPropietario;
 	private String dniPropietario;
+	
+	@Temporal(TemporalType.DATE)
 	private Date fechaNacPropietario;
+	
+	@Temporal(TemporalType.DATE)
 	private Date fechaRegistroPropietario;
 	
 
